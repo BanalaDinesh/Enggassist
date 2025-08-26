@@ -53,7 +53,7 @@ engg-assist-bot/
 
 1. Clone repo
 ```bash
-git clone https://github.com/BanalaDinesh/Enggassist
+git clone https://github.com/BanalaDinesh/Enggassist.git
 cd engg-assist-bot 
 ```
 2. Create virtual env
@@ -100,6 +100,7 @@ streamlit run app.py
 -Index persists in ./rag_index/.  
 -Click Rebuild Index if you update CSVs.  
 -Streamlit Cloud/HF Spaces won’t work unless Ollama is remote-exposed.  
+
 
 
 
