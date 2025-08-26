@@ -36,7 +36,6 @@ engg-assist-bot/
 │── hyd_college_faq_extended.csv 
 
 
-
 ##🚀 Setup
 
 Clone repo
@@ -86,5 +85,6 @@ Index persists in ./rag_index/.
 Click Rebuild Index if you update CSVs.
 
 Streamlit Cloud/HF Spaces won’t work unless Ollama is remote-exposed.
+
 
 
