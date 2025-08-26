@@ -25,8 +25,8 @@ This chatbot uses **RAG (Retrieval-Augmented Generation)** with FAISS + Ollama m
   ollama pull nomic-embed-text
 
 
-
-  ## 📂 Project Structure
+## 📂 Project Structure
+  
 engg-assist-bot/
 │── app.py # Main Streamlit app
 │── requirements.txt # Dependencies
@@ -37,7 +37,7 @@ engg-assist-bot/
 
 
 
-🚀 Setup
+##🚀 Setup
 
 Clone repo
 
@@ -86,4 +86,5 @@ Index persists in ./rag_index/.
 Click Rebuild Index if you update CSVs.
 
 Streamlit Cloud/HF Spaces won’t work unless Ollama is remote-exposed.
+
 
