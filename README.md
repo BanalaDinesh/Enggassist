@@ -81,7 +81,7 @@ streamlit run app.py
 
 -Best CSE colleges in Hyderabad with placements?  
 -Fees for B.Tech near Kukatpally?  
--Which colleges accept TS EAMCET rank ~10k?  
+-Which colleges are nearby Ghatkesar?  
 -Upload more CSVs from the sidebar to expand knowledge.  
 
 ---
@@ -91,3 +91,4 @@ streamlit run app.py
 -Index persists in ./rag_index/.  
 -Click Rebuild Index if you update CSVs.  
 -Streamlit Cloud/HF Spaces won’t work unless Ollama is remote-exposed.  
+
