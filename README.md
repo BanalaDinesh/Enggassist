@@ -1,7 +1,16 @@
 # 🎓 Engg Assist – Hyderabad B.Tech Chatbot 🤖
 
-An AI-powered admissions assistant for students exploring **engineering colleges in Hyderabad**.  
-This chatbot uses **RAG (Retrieval-Augmented Generation)** with FAISS + Ollama models to answer queries about colleges, fees, placements, exams, and more.
+
+Engg Assist is an AI-powered chatbot that helps students explore **Hyderabad engineering colleges**, including details such as:
+- College information
+- Branches offered
+- Fees
+- Cutoffs
+- Placements
+- Accreditations
+- Affiliation & Rankings
+
+It uses **LangChain + Ollama (Llama3 model) + FAISS** to create a **RAG (Retrieval-Augmented Generation)** system with a **Gradio web UI**.
 
 ---
 
@@ -91,5 +100,6 @@ streamlit run app.py
 -Index persists in ./rag_index/.  
 -Click Rebuild Index if you update CSVs.  
 -Streamlit Cloud/HF Spaces won’t work unless Ollama is remote-exposed.  
+
 
 
