@@ -28,14 +28,14 @@ This chatbot uses **RAG (Retrieval-Augmented Generation)** with FAISS + Ollama m
 
 ## 📂 Project Structure
 
-engg-assist-bot/
-│── app.py # Main Streamlit app
-│── requirements.txt # Dependencies
-│── .env.example # Sample config
-│── README.md # This file
-│── hyderabad_engineering_colleges.csv 
-│── hyd_college_faq_extended.csv 
-│── rag_index/ # Auto-created FAISS index
+engg-assist-bot/  
+│── app.py # Main Streamlit app  
+│── requirements.txt # Dependencies  
+│── .env.example # Sample config  
+│── README.md # This file  
+│── hyderabad_engineering_colleges.csv  
+│── hyd_college_faq_extended.csv  
+│── rag_index/ # Auto-created FAISS index  
 
 
 ---
@@ -58,7 +58,8 @@ venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 ```
 
-4. Configure .env
+4. Configure .env  
+Copy `.env.example` to `.env` and update values as needed:
 ```bash
 cp .env.example .env
 ```
@@ -78,15 +79,15 @@ streamlit run app.py
 
 ## 💡 Usage Ask:
 
--Best CSE colleges in Hyderabad with placements?
--Fees for B.Tech near Kukatpally?
--Which colleges accept TS EAMCET rank ~10k?
--Upload more CSVs from the sidebar to expand knowledge.
+-Best CSE colleges in Hyderabad with placements?  
+-Fees for B.Tech near Kukatpally?  
+-Which colleges accept TS EAMCET rank ~10k?  
+-Upload more CSVs from the sidebar to expand knowledge.  
 
 ---
 
-## ⚠️ Notes Answers are grounded only in provided CSVs.
-
--Index persists in ./rag_index/.
--Click Rebuild Index if you update CSVs.
--Streamlit Cloud/HF Spaces won’t work unless Ollama is remote-exposed.
+## ⚠️ Notes
+-Answers are grounded only in provided CSVs.  
+-Index persists in ./rag_index/.  
+-Click Rebuild Index if you update CSVs.  
+-Streamlit Cloud/HF Spaces won’t work unless Ollama is remote-exposed.  
